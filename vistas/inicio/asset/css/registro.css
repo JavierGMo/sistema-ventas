@@ -1,0 +1,21 @@
+#nombres, #apellidos, #email, #telefono, #contrasenia{
+    height: 30px;
+}
+html{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.error-input #text-nombres, .error-input #text-apellidos, .error-input #text-email, .error-input #text-telefono, .error-input #text-contrasenia {
+    color: red;
+}
+.error-input #nombres, .error-input #apellidos, .error-input #email, .error-input #telefono, .error-input #contrasenia{
+    border-bottom-color: red;
+}
+/* colores del texto */
+.text-danger{
+    color: red;
+}
+#btn-registro:hover{
+    color:#fff;
+}
