@@ -1,0 +1,24 @@
+#btn-login:hover{
+    color:#fff;
+}
+html{
+    overflow: hidden;
+    height: 100vh;
+}
+#email{
+    height: 30px;
+}
+#contrasenia{
+    height: 30px;
+}
+.error-input #text-email, .error-input #text-contrasenia {
+    color: red;
+}
+.error-input #email, .error-input #contrasenia{
+    border-bottom-color: red;
+}
+
+/* colores del texto */
+.text-danger{
+    color: red;
+}
